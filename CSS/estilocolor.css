@@ -1,0 +1,25 @@
+h1 {
+    color:rgb(40, 164, 192);
+    background-color:black;
+    font-weight: bold;
+    text-align: left;
+    font-family: monospace;
+}
+.destacado {
+    color: rgb(250, 249, 249);
+    font-weight: bold;
+}
+h2 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: light;
+}
+h3 {
+    background-color: aqua;
+    color:rgb(93, 73, 190);
+    text-align: right;
+    font-weight: normal;
+    text-decoration: underline;
+}
