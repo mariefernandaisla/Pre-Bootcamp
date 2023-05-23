@@ -1,0 +1,20 @@
+.row{
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+.col {
+    flex: 1;
+    background-color: aqua;
+    margin: 1em;
+}
+.col2{
+    flex: 2;
+    background-color: blueviolet;
+    margin: 1em;
+}
+.col3 {
+    flex: 3;
+    background-color: chartreuse;
+    margin: 1em;
+}
