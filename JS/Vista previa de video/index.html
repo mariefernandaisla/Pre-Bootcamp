@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- top navigation -->
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+    <!-- main content -->
+    <div class="flex-container">
+        <!-- left column -->
+        <div class="col-l">
+            <!-- this is a placeholder replace it with a real video -->
+            <div class="row">
+                <figure class="placeholder">
+                    <video id="movie" class="movie-central" controls>
+                        <source src="pexels-matthias-groeneveld-14691541-3840x2160-24fps.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                        <button id="playButton">Play</button>
+                        <button id="pauseButton">Pause</button>
+                    </video>
+                </figure>
+            </div>
+
+            <!-- video info -->
+            <div class="row">
+                <div class="start">
+                    <h1>Example Video Title</h1>
+                    <h3>1.3K Views | June, 18, 2021</h3>
+                    <div class="user">
+                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
+                        <span class="user-name">Example User Name</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+        </div>
+         <!-- rigth column -->
+        <div class="col-r">
+            <div class="row">
+                <h3 class="sub-header ">Up Next</h3>
+            </div>
+            <div class="video-small">
+                <div class="col-vid-s">
+                    <video id="movie" class="movie-central" controls>
+                        <source src="pexels-matthias-groeneveld-14691541-3840x2160-24fps.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                        <button id="playButton">Play</button>
+                        <button id="pauseButton">Pause</button>
+                    </video>
+                </div>
+                <div class="col-vid-s">
+                    <p class="video-title">Not a Rick Roll</p>
+                </div>
+            </div>
+            <div class="video-small">
+                <div class="col-vid-s">
+                    <video id="movie" class="movie-central" controls>
+                        <source src="pexels-matthias-groeneveld-14691541-3840x2160-24fps.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                        <button id="playButton">Play</button>
+                        <button id="pauseButton">Pause</button>
+                    </video>
+                </div>
+                <div class="col-vid-s">
+                    <p class="video-title">Not a Rick Roll</p>
+                </div>
+            </div>
+            <div class="video-small">
+                <div class="col-vid-s">
+                    <video id="movie" class="movie-central" controls>
+                        <source src="pexels-matthias-groeneveld-14691541-3840x2160-24fps.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                        <button id="playButton">Play</button>
+                        <button id="pauseButton">Pause</button>
+                    </video>
+                </div>
+                <div class="col-vid-s">
+                    <p class="video-title">Not a Rick Roll</p>
+                </div>
+            </div>
+            <div class="video-small">
+                <div class="col-vid-s">
+                    <video id="movie" class="movie-central" controls>
+                        <source src="pexels-matthias-groeneveld-14691541-3840x2160-24fps.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                        <button id="playButton">Play</button>
+                        <button id="pauseButton">Pause</button>
+                    </video>
+                </div>
+                <div class="col-vid-s">
+                    <p class="video-title">Not a Rick Roll</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
